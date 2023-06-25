@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        BOAT Website Landing page
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="first">
+        <header>
+        <a href="#"><img class="logo" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt_logo_small.svg?v=1682421543"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </header>
+        <div class="para">
+            <div class="text">
+                <h2>That's What<br><span class="like">You like</span></h2>
+                <p class="exp">Experience true audio freedom with Boat Wireless Headphones. Enjoy unparalleled sound quality, and seamless Bluetooth connectivity. Say goodbye to tangled wires and hello to limitless possibilities.</p>
+                <a class="view" href="#">View All Products</a>
+            </div>
+            <div class="imgset">
+                <img class="img1" src="	https://cdn.shopify.com/s/files/1/0057/8938/4802/products/rockerz-518-blue_300x.png?v=1613731627">
+            </div>
+            </div>
+            <ul class="base">
+                <li> <img src="	https://cdn.shopify.com/s/files/1/0057/8938/4802/products/rockerz-518-blue_300x.png?v=1613731627" onclick="imgSlider('https://cdn.shopify.com/s/files/1/0057/8938/4802/products/rockerz-518-blue_300x.png?v=1613731627');changeBgColor('#0C6D6B')"></li>
+                <li> <img src="https://5.imimg.com/data5/SELLER/Default/2023/1/GM/EZ/QE/35935566/ae22e3a6-9590-401a-94f6-d8ecf42b4932-600x-500x500.png" onclick="imgSlider('https://5.imimg.com/data5/SELLER/Default/2023/1/GM/EZ/QE/35935566/ae22e3a6-9590-401a-94f6-d8ecf42b4932-600x-500x500.png');changeBgColor('#3E4543')"></li>
+                <li> <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/rockerz-650-green_600x.png?v=1686029817" onclick="imgSlider('https://cdn.shopify.com/s/files/1/0057/8938/4802/products/rockerz-650-green_600x.png?v=1686029817');changeBgColor('#138A68')"></li>
+                <li> <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0cfa4417-0213-4b49-b78e-0ae68aeb7057_18fb3b69-5601-4680-a06c-b2a4c1a1343e_600x.png?v=1629538793" onclick="imgSlider('https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0cfa4417-0213-4b49-b78e-0ae68aeb7057_18fb3b69-5601-4680-a06c-b2a4c1a1343e_600x.png?v=1629538793');changeBgColor('#B13333')"></li>
+            </ul>
+            <ul class="last">
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="twitter.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+            </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything)
+        {
+            document.querySelector('.img1').src = anything;
+        }
+        function changeBgColor(color)
+        {
+            const first = document.querySelector('.first');
+            first.style.background = color;
+
+        }
+    </script>
+
+</body>
+
+</html>
